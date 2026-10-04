@@ -587,7 +587,7 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 60px;
+  gap: 40px;
 }
 .hub .wrapper .content .text {
   display: flex;
