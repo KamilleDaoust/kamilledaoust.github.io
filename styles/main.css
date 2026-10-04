@@ -611,14 +611,14 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 32px;
+  gap: 24px;
 }
 .hub .media {
   background-color: var(--color-primary);
 }
 .hub .media img {
   display: block;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
