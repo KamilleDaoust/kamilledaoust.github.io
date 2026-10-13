@@ -808,7 +808,6 @@ h4 {
 .hero {
   background-image: url(../../assets/images/blanc-fond.png);
   width: 100%;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -932,7 +931,6 @@ h4 {
 
 .professionnel {
   width: 100%;
-  min-height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1049,7 +1047,6 @@ h4 {
 .personnel {
   background-image: url(../../assets/images/blanc-fond.png);
   width: 100%;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1189,7 +1186,6 @@ p {
 .projects {
   background-image: url(../../assets/images/mauve-fond.png);
   width: 100%;
-  min-height: 100vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
