@@ -57,7 +57,6 @@
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
-  scroll-behavior: smooth;
 }
 
 /* Sections
@@ -638,7 +637,6 @@ a {
   justify-content: center;
   align-items: center;
   gap: 65px;
-  padding: 60px 120px;
 }
 @media (width < 1024px) {
   .hub {
@@ -1272,6 +1270,17 @@ p {
 }
 .projects .wrapper h1 {
   color: var(--color-black);
+}
+
+[data-scrolly=fromBottom] {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.4s ease;
+}
+
+[data-scrolly=fromBottom].is-active {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .footer {
