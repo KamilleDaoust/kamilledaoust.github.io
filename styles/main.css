@@ -885,6 +885,9 @@ h4 {
   .hero .content p{
     text-align: center;
   }
+  p{
+    text-align: center;
+  }
 }
 .hero  .content .buttons {
   width: 50%;
