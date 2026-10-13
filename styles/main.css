@@ -1307,6 +1307,7 @@ p {
   align-items: center;
   justify-content: center;
   gap: 60px;
+  text-align: center;
 }
 @media (width < 1024px) {
   .footer .wrapper .content-suite .wrapper {
@@ -1319,6 +1320,7 @@ p {
   align-items: center;
   justify-content: center;
   gap: 32px;
+  text-align: center;
 }
 .footer .wrapper .content-suite .wrapper .content h3 {
   color: var(--color-black);
