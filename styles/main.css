@@ -882,6 +882,9 @@ h4 {
   .hero  .content .sous-titre p {
     text-align: center;
   }
+  .hero .content p{
+    text-align: center;
+  }
 }
 .hero  .content .buttons {
   width: 50%;
