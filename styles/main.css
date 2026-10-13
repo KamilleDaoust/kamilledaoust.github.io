@@ -637,6 +637,7 @@ a {
   justify-content: center;
   align-items: center;
   gap: 65px;
+  padding: 60px 120px;
 }
 @media (width < 1024px) {
   .hub {
@@ -644,6 +645,7 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 30px 30px;
   }
   .hub .media {
     border-radius: 100%;
@@ -773,6 +775,7 @@ h4 {
   font-family: var(--font-secondary);
   font-size: var(--font-size-h4);
   font-weight: 600;
+  text-align: center;
 }
 
 .buttons {
@@ -806,6 +809,10 @@ h4 {
   background-image: url(../../assets/images/blanc-fond.png);
   width: 100%;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url("../../assets/images/blanc-fond.png");
   background-size: cover;
   background-position: center;
@@ -926,6 +933,10 @@ h4 {
 .professionnel {
   width: 100%;
   min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-image: url("../../assets/images/vert-fond.png");
   background-size: cover;
   background-position: center;
@@ -993,7 +1004,7 @@ h4 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 25px;
+  gap: 15px;
 }
 @media (width < 1024px) {
   .professionnel .wrapper .content .competences ul,
@@ -1039,6 +1050,10 @@ h4 {
   background-image: url(../../assets/images/blanc-fond.png);
   width: 100%;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1181,6 +1196,11 @@ p {
   z-index: -1;
   padding: 60px 120px;
 }
+@media (width < 1024px) {
+  .projects {
+    padding: 30px 15px;
+  }
+}
 .projects .wrapper {
   display: flex;
   flex-direction: column;
@@ -1200,6 +1220,16 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 34px;
+}
+@media (width < 1440px) {
+  .projects .wrapper .grid-projects {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (width < 768px) {
+  .projects .wrapper .grid-projects {
+    grid-template-columns: 1fr;
+  }
 }
 .projects .wrapper .grid-projects .card {
   display: flex;
@@ -1269,11 +1299,7 @@ p {
   align-items: center;
   justify-content: center;
   gap: 15px;
-}
-@media (width < 1024px) {
-  .footer .wrapper .content-suite {
-    padding: 30px 15px;
-  }
+  text-align: center;
 }
 .footer .wrapper .content-suite .wrapper {
   display: flex;
