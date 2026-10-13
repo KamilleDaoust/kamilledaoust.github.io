@@ -897,7 +897,9 @@ h4 {
     width: 100%;
   }
 }
-
+p{
+  text-align: center;
+}
 .professionnel {
   width: 100%;
   display: flex;
