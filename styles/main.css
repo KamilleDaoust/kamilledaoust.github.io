@@ -847,16 +847,14 @@ h4 {
   gap: 10px;
 }
 
-
-
-  .hero .content {
+.hero .content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 25px;
     text-align: center;
-  }
+}
 
 .hero  .content .sous-titre {
   display: flex;
