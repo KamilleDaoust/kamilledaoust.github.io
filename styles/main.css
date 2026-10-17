@@ -506,6 +506,12 @@ a {
   height: 6em;
   width: 6em;
 }
+nav a{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
 
 .header {
   background-color: var(--color-black);
