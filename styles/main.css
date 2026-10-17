@@ -1575,9 +1575,8 @@ p {
   stroke: var(--color-white);
 }
 /*# sourceMappingURL=main.css.map */
-@media (width < 768px){
+/*@media (width < 768px){
   a{
   width: 100%; 
   }
-  
-}
+}*/
