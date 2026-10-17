@@ -551,6 +551,9 @@ a {
     transition: transform 0.4s ease-out;
   }
 }
+.nav-is-active .header .nav-menu a {
+  width: 100%;
+}
 @media (width < 1024px) {
   .nav-is-active .header .nav-menu {
     transform: translateX(0);
@@ -562,6 +565,11 @@ a {
   justify-content: center;
   gap: 32px;
   padding: 0;
+}
+@media (width < 1024px) {
+  .header .nav-menu .pages ul {
+    width: 100%;
+  }
 }
 .header .nav-menu .pages li {
   list-style-type: none;
