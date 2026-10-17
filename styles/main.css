@@ -1015,7 +1015,7 @@ h4 {
 @media (width < 1440px) {
   .hero .grille-contenu {
     display: flex;
-    flex-direction: column;
+
     justify-content: center;
     align-items: center;
   }
@@ -1575,3 +1575,6 @@ p {
   stroke: var(--color-white);
 }
 /*# sourceMappingURL=main.css.map */
+a{
+  width: 100%;
+}
