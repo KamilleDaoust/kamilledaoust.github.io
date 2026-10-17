@@ -506,10 +506,7 @@ a {
   height: 6em;
   width: 6em;
 }
- a{
-  width: 100%;
 
-}
 
 .header {
   background-color: var(--color-black);
@@ -580,6 +577,7 @@ a {
   color: var(--color-white);
   font-family: var(--font-text);
   font-size: var(--font-size-links);
+  width: 100%;
 }
 .header .nav-menu .pages a:hover {
   background-color: var(--color-bg-primary);
