@@ -817,6 +817,7 @@ h4 {
   background-position: center;
   background-repeat: no-repeat;
   z-index: -1;
+  scroll-behavior: smooth;
 }
 .hero h1,
 .hero h2 {
@@ -1163,6 +1164,7 @@ p {
   background-repeat: no-repeat;
   z-index: -1;
   padding: 60px 120px;
+  scroll-behavior: smooth;
 }
 @media (width < 1024px) {
   .projects {
@@ -1259,6 +1261,7 @@ p {
 .footer {
   background-color: var(--color-white);
   padding: 60px 120px;
+  scroll-behavior: smooth;
 }
 @media (width < 1024px) {
   .footer {
