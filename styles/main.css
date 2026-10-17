@@ -638,6 +638,7 @@ a {
   justify-content: center;
   align-items: center;
   gap: 65px;
+  scroll-behavior: smooth;
 }
 @media (width < 1024px) {
   .hub {
