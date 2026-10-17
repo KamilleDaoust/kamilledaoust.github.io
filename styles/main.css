@@ -1580,3 +1580,8 @@ p {
   stroke: var(--color-white);
 }
 /*# sourceMappingURL=main.css.map */
+@media (max-width: 768px) {
+    section {
+        scroll-margin-top: 150px;
+    }
+}
