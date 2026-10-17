@@ -12,54 +12,58 @@
 
     <body data-component="Scrolly">
 
-        <header class="header">
+        <header class="header" data-component="Header">
 
-            <a href="#hub" class="logo">
+            <a href="index.html" class="logo">
                 KD
             </a>
 
             <div class="nav-menu">
-                <nav class="pages">
-                    <ul>
-                        <a href="#propos">
-                            <li>À propos</li>
-                        </a>
-                        <a href="#projets">
-                            <li>Mes projets</li>
-                        </a>
-                        <a href="#contact">
-                            <li>Contact</li>
-                        </a>
-                    </ul>
-                </nav>
-                <nav class="socials">
-                    <ul>
-                        <a href="" target="_blank">
-                            <li>
-                                <svg class="icon">
-                                    <use href="#icon-file-text"></use>
-                                </svg>
-                            </li>
-                        </a>
+                <nav class="nav-primary">
+                    <nav class="pages">
+                        <ul>
+                            <a href="">
+                                <li>À propos</li>
+                            </a>
+                            <a href="#projets">
+                                <li>Mes projets</li>
+                            </a>
+                            <a href="#contact">
+                                <li>Contact</li>
+                            </a>
+                        </ul>
+                    </nav>
+
+                    <nav class="socials">
+                        <ul class="socials">
+                            <a href="" target="_blank">
+                                <li>
+                                    <svg class="icon">
+                                        <use href="#icon-file-text"></use>
+                                    </svg>
+                                </li>
+                            </a>
 
 
-                        <a href="https://www.youtube.com/@KamilleDaoust03" target="_blank">
-                            <li>
-                                <svg class="icon">
-                                    <use href="#icon-youtube"></use>
-                                </svg>
-                            </li>
-                        </a>
+                            <a href="https://www.youtube.com/@KamilleDaoust03" target="_blank">
+                                <li>
+                                    <svg class="icon">
+                                        <use href="#icon-youtube"></use>
+                                    </svg>
+                                </li>
+                            </a>
 
 
-                        <a href="https://www.linkedin.com/in/kamille-daoust-b1236b439/?isSelfProfile=true" target="_blank">
-                            <li>
-                                <svg class="icon">
-                                    <use href="#icon-linkedin"></use>
-                                </svg>
-                            </li>
-                        </a>
-                    </ul>
+                            <a href="https://www.linkedin.com/in/kamille-daoust-b1236b439/?isSelfProfile=true" target="_blank">
+                                <li>
+                                    <svg class="icon">
+                                        <use href="#icon-linkedin"></use>
+                                    </svg>
+                                </li>
+                            </a>
+                        </ul>
+                    </nav>
+
                 </nav>
 
             </div>
@@ -71,7 +75,7 @@
 
         </header>
 
-        <section class="hub" id="hub">
+        <section class="hub">
             <div class="wrapper" data-scrolly="fromBottom">
                 <div class="content">
                     <div class="text">
@@ -94,13 +98,17 @@
                 <img src="./assets/images/image-profile.png" alt="" />
             </div>
         </section>
-        <section class="hero" id="propos">
+        <section class="hero">
             <div class="wrapper" data-scrolly="fromBottom">
                 <div class="titre-section">
                     <h1 class="big">À propos de moi</h1>
                     <h1>Kamille Daoust</h1>
-                </div>            
-                   <div class="content">
+                </div>
+
+                <div class="grille-contenu">
+                    <div class="media"></div>
+
+                    <div class="content">
                         <p>
                             Moi c’est Kamille Daoust. Je suis une finissante
                             <span class="bold">curieuse</span>
@@ -120,7 +128,7 @@
                             et à apporter mes forces au sein de réels projets réalisés en entreprise.
                         </p>
                     </div>
-              
+                </div>
             </div>
         </section>
 
@@ -211,7 +219,7 @@
                 </div>
             </div>
         </section>
-        <section class="projects" id="projets">
+        <section class="projects">
             <div class="wrapper" data-scrolly="fromBottom">
                 <div class="projet-title">
                     <h2>Mes projets</h2>
@@ -227,7 +235,7 @@
                             <p>Montage vidéo | Étudiant | 2025</p>
                             <h3>Virage extrème</h3>
                             <p>Montage d’un générique d’ouverture fictif pour une série</p>
-                            <a href="https://www.behance.net/gallery/256193707/Virage-extreme" target="_blank">Voir le projet</a>
+                            <a href="">Voir le projet</a>
                         </div>
                     </div>
                     <div class="card">
@@ -238,7 +246,7 @@
                             <p>Réalisation vidéo | Étudiant | 2025</p>
                             <h3>Pub pour les réseaux sociaux</h3>
                             <p>Réalisation et montage d’une pub pour les réseaux sociaux</p>
-                            <a href="https://www.behance.net/gallery/256204849/Pub-pour-les-rseaux-sociaux" target="_blank">Voir le projet</a>
+                            <a href="">Voir le projet</a>
                         </div>
                     </div>
                     <div class="card">
@@ -260,7 +268,7 @@
                             <p>Animation 3D | Étudiant | 2026</p>
                             <h3>Boucle infinie</h3>
                             <p>Modélisation et animation d’une scène 3D dans une boucle infinie</p>
-                            <a href="https://www.behance.net/gallery/256747777/Boucle-infinie-3D" target="_blank">Voir le projet</a>
+                            <a href="">Voir le projet</a>
                         </div>
                     </div>
                     <div class="card">
@@ -271,7 +279,7 @@
                             <p>Animation 3D | Étudiant | 2025</p>
                             <h3>Braver la tempête</h3>
                             <p>Modélisation et animation d’une scène libre</p>
-                            <a href="https://www.behance.net/gallery/256749115/Animation-3D-dun-bateau-dans-une-tempete" target="_blank">Voir le projet</a>
+                            <a href="">Voir le projet</a>
                         </div>
                     </div>
                 </div>
