@@ -1577,3 +1577,19 @@ p {
   align-items: center;
   gap: 24px;
 }    
+
+.ia{
+  padding: 60px 120px;
+background-color: #a4a694;
+  .wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .content{
+      color: #0d0d0d;
+    }
+  }
+
+}
