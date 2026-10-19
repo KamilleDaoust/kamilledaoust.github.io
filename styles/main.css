@@ -1600,5 +1600,11 @@ background-color: #a4a694;
       
     }
   }
-
+  h3{
+    text-align: center;
+  }
+  p{
+    color: #0d0d0d;
+    
+  }
 }
