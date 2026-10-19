@@ -1552,13 +1552,23 @@ p {
   stroke: var(--color-white);
 }
 /*# sourceMappingURL=main.css.map */
-.btn_retour{
+.erreur{
+  .wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+    .btn_retour{
     text-align: center;
-    background-color: var(--color-primary);
+    background-color: #AD92B4;
     list-style-type: none;
-    color: var(--color-white);
-    font-family: var(--font-text);
-    font-size: var(--font-size-links);
+    color: #FFF9F6;
+
     padding: 10px 20px;
     border-radius: 16px;
+    }
+  }
 }
+
