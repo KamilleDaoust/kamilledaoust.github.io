@@ -1592,7 +1592,7 @@ background-color: #a4a694;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      gap: 24px;
+      gap: 15px;
 
 
     }
@@ -1600,9 +1600,12 @@ background-color: #a4a694;
 
 }     
  h3{
-      text-align: center;
+    text-align: center;
 }
 .text-ia{
   color: #0d0d0d;
   text-align: center;
+}
+p{
+  color: #FFF9F6;
 }
