@@ -1566,6 +1566,9 @@ p {
 
     padding: 10px 20px;
     border-radius: 16px;
+    &:hover{
+      background-color: #a4a694;
+    }
     }
 .erreur .wrapper{
   display: flex;
