@@ -1594,11 +1594,11 @@ background-color: #a4a694;
       justify-content: center;
       gap: 15px;
 
-
+      h3, .moi{
+        color: #FFF9F6;
+      }
     }
   }
-  h3, .moi{
-    color: #FFF9F6;
-  }
+
 
 }     
