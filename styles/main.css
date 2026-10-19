@@ -1553,14 +1553,11 @@ p {
 }
 /*# sourceMappingURL=main.css.map */
 .erreur{
-  .wrapper{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
+    padding: 350px 450px;
 
-    .btn_retour{
+
+}
+  .btn_retour{
     text-align: center;
     background-color: #AD92B4;
     list-style-type: none;
@@ -1569,6 +1566,10 @@ p {
     padding: 10px 20px;
     border-radius: 16px;
     }
-  }
-}
-
+.erreur .wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}    
