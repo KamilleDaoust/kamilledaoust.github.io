@@ -1312,7 +1312,7 @@ h4 {
 }
 
 p {
-  color: var(--color-white);
+  color:#FFF9F6;
   font-family: var(--font-size-content);
   font-weight: 300;
   margin: 0;
