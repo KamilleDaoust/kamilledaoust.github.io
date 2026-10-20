@@ -1598,12 +1598,10 @@ p {
   align-items: center;
   justify-content: center;
   gap: 15px;
-
-
 }
 .ia .wrapper h3{
     color: #0d0d0d;
 }
-.ia .wrapper p{
+.ia .wrapper .text-ia{
   color: #0d0d0d;
 }
