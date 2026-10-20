@@ -1583,11 +1583,11 @@ p {
   padding: 60px 120px;
   background-color: #a4a694;
 }    
-@media (width < 680px) {
-  .ia{
-    padding: 30px 30px;
+@media screen and (max-width: 680px) {
+  .ia {
+    padding: 30px;
   }
-} 
+}
 .ia .wrapper{
   display: flex;
   flex-direction: column;
