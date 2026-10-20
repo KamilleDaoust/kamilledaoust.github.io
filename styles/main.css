@@ -1600,6 +1600,9 @@ p {
 
 
 }
-.ia .wrapper h3, .moi{
+.ia .wrapper h3{
     color: #0d0d0d;
-  }
+}
+.ia .wrapper p{
+  color: #0d0d0d;
+}
