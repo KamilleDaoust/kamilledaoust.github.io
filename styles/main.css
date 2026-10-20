@@ -1638,3 +1638,19 @@ p {
 .ia .wrapper .content .trois-d p.text-ia{
   text-align: left;
 }
+
+@media (width < 1024px) {
+  .ia .wrapper .content .port {
+    align-items: center;
+  }
+}
+@media (width < 1024px) {
+  .ia .wrapper .content .video {
+    align-items: center;
+  }
+}
+@media (width < 1024px) {
+  .ia .wrapper .content .trois-d {
+    align-items: center;
+  }
+}
