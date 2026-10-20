@@ -1582,7 +1582,12 @@ p {
 .ia{
   padding: 60px 120px;
   background-color: #a4a694;
-}     
+}    
+@media (width < 680px) {
+  .ia{
+    padding: 30px 30px;
+  }
+} 
 .ia .wrapper{
   display: flex;
   flex-direction: column;
@@ -1637,11 +1642,6 @@ p {
 }
 .ia .wrapper .content .trois-d p.text-ia{
   text-align: left;
-}
-@media (width < 1024px) {
-  .ia{
-    padding: 30px 30px;
-  }
 }
 
 @media (width < 1024px) {
