@@ -1689,7 +1689,7 @@ p {
   }
 }
 @media (width < 1024px) {
-  .ia .wrapper .content .trois-d p.text-ia{
+.ia .wrapper .content .trois-d p.text-ia{
     text-align: center;
   }
 }
