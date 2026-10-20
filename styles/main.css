@@ -1615,13 +1615,18 @@ p {
   gap: 10px;
 
 }
+.ia .wrapper .content .port p.text-ia{
+  text-align: left;
+}
 .ia .wrapper .content .video{
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
   gap: 10px;
-
+}
+.ia .wrapper .content .video p.text-ia{
+  text-align: right;
 }
 .ia .wrapper .content .trois-d{
   display: flex;
@@ -1629,5 +1634,7 @@ p {
   align-items: flex-end;
   justify-content: center;
   gap: 10px;
-
+}
+.ia .wrapper .content .trois-d p.text-ia{
+  text-align: left;
 }
