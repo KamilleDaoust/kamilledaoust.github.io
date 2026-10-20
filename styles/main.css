@@ -1639,8 +1639,8 @@ p {
   text-align: left;
 }
 @media (width < 1024px) {
-  .ia  {
-    padding: 20px 20px;
+  .ia{
+    padding: 30px 30px;
   }
 }
 
