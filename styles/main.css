@@ -1645,12 +1645,42 @@ p {
   }
 }
 @media (width < 1024px) {
+  .ia .wrapper .content .port h3{
+    text-align: center;
+  }
+}
+@media (width < 1024px) {
+  .ia .wrapper .content .port p.text-ia{
+    text-align: center;
+  }
+}
+@media (width < 1024px) {
   .ia .wrapper .content .video {
     align-items: center;
   }
 }
 @media (width < 1024px) {
+  .ia .wrapper .content .video h3{
+    text-align: center;
+  }
+}
+@media (width < 1024px) {
+  .ia .wrapper .content .video p.text-ia{
+    text-align: center;
+  }
+}
+@media (width < 1024px) {
   .ia .wrapper .content .trois-d {
     align-items: center;
+  }
+}
+@media (width < 1024px) {
+  .ia .wrapper .content .trois-d h3{
+    text-align: center;
+  }
+}
+@media (width < 1024px) {
+  .ia .wrapper .content .trois-d p.text-ia{
+    text-align: center;
   }
 }
