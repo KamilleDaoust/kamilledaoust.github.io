@@ -1058,15 +1058,9 @@ h4 {
 }
 .hero .wrapper .content p {
   text-align: center;
-}
-.hero .wrapper .content .buttons {
   width: 50%;
 }
-@media (width < 768px) {
-  .hero .wrapper .content .buttons {
-    width: 100%;
-  }
-}
+
 
 .professionnel {
   width: 100%;
