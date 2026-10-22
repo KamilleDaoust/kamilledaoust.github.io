@@ -1513,6 +1513,9 @@ p {
   padding: 10px 20px;
   border-radius: 16px;
 }
+.footer .wrapper .action a.IA:hover{
+  background-color: #a4a694;
+}
 .footer .wrapper .action .icones {
   display: flex;
   justify-content: center;
