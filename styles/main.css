@@ -791,6 +791,8 @@ a {
   justify-content: center;
   align-items: center;
   gap: 65px;
+
+  height: 100vh;
 }
 @media (width < 1024px) {
   .hub {
