@@ -1358,12 +1358,12 @@ p {
   gap: 20px;
 }
 
-.projects .wrapper  .grid-projects .card {
+.projects .wrapper .grid-projects .card {
   grid-column: span 2;
 }
 
 /* Centrer uniquement les deux dernières cartes */
-.projects .wrapper  .grid-projects .card:nth-child(4) {
+.projects .wrapper .grid-projects .card:nth-child(4) {
   grid-column: 2 / span 2;
 }
 
