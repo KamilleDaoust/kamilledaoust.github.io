@@ -829,6 +829,7 @@ a {
   min-width: 0;
   align-self: stretch;
   overflow: hidden;
+  background-color: #AD92B4;
 }
 
 .hub .media img {
