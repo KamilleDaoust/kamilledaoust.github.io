@@ -860,6 +860,7 @@ a {
 .hub .media {
   background-color: #AD92B4;
   height: 100%;
+  overflow: hidden;
 }
 .hub .media img {
   display: block;
