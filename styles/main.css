@@ -1395,7 +1395,20 @@ p {
   gap: 24px;
   padding: 24px;
 }
+.projects .wrapper .grid-bas .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 24px;
+}
 .projects .wrapper .grid-projects .content a {
+  background-color: var(--color-primary);
+  padding: 10px 20px;
+  border-radius: 16px;
+}
+.projects .wrapper .grid-bas .content a {
   background-color: var(--color-primary);
   padding: 10px 20px;
   border-radius: 16px;
@@ -1403,7 +1416,13 @@ p {
 .projects .wrapper .grid-projects .content a:hover {
   background-color: var(--color-bg-primary);
 }
+.projects .wrapper .grid-bas .content a:hover {
+  background-color: var(--color-bg-primary);
+}
 .projects .wrapper .grid-projects .media {
+  height: 100%;
+}
+.projects .wrapper .grid-bas .media {
   height: 100%;
 }
 .projects .wrapper .grid-projects .media img {
@@ -1411,13 +1430,29 @@ p {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
+}
+.projects .wrapper .grid-bas .media img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 .projects .wrapper .grid-projects h3 {
   color: var(--color-black);
   text-align: center;
 }
+.projects .wrapper .grid-bas h3 {
+  color: var(--color-black);
+  text-align: center;
+}
 .projects .wrapper .grid-projects p {
+  color: var(--color-black);
+  opacity: 50%;
+  text-align: center;
+}
+.projects .wrapper .grid-bas p {
   color: var(--color-black);
   opacity: 50%;
   text-align: center;
