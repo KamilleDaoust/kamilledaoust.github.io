@@ -1363,6 +1363,13 @@ p {
   align-items: center;
   gap: 34px;
 }
+.projects .wrapper .grid-bas .card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-white);
+}
 @media (width < 1440px) {
   .projects .wrapper .grid-projects {
     grid-template-columns: 1fr 1fr;
