@@ -1406,6 +1406,7 @@ p {
 }
 .projects .wrapper .grid-projects .media {
   height: 100%;
+  width: 100%;
 }
 .projects .wrapper .grid-projects .media img {
   display: block;
