@@ -1014,10 +1014,9 @@ h4 {
   gap: 10px;
 }
 .hero .wrapper .content {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  gap: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 @media (width < 1440px) {
   .hero .wrapper .content .big {
