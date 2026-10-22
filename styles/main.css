@@ -1060,6 +1060,11 @@ h4 {
   text-align: center;
   width: 50%;
 }
+@media (width < 768px){
+  .hero .wrapper .content p {
+    width: 100%;
+}
+}
 
 
 .professionnel {
@@ -1227,6 +1232,7 @@ h4 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   gap: 25px;
 }
 @media (width < 1024px) {
@@ -1265,7 +1271,7 @@ h4 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   gap: 15px;
   order: 1;
 }
