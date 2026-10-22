@@ -810,7 +810,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #AD92B4;
+
     /*   img {
         display: flex;
         align-items: center;
@@ -856,7 +856,7 @@ a {
   gap: 24px;
 }
 .hub .media {
-  background-color: var(--color-primary);
+  background-color: #AD92B4;
   height: 100%;
 }
 .hub .media img {
