@@ -1287,7 +1287,7 @@ h4 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   gap: 15px;
 }
 @media (width < 1024px) {
