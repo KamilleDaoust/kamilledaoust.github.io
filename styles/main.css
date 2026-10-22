@@ -1357,6 +1357,12 @@ p {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 34px;
 }
+.projects .wrapper .grid-projects .grid-bas{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 34px;
+}
 @media (width < 1440px) {
   .projects .wrapper .grid-projects {
     grid-template-columns: 1fr 1fr;
