@@ -1404,7 +1404,7 @@ p {
 .projects .wrapper .grid-projects .content a:hover {
   background-color: var(--color-bg-primary);
 }
-.projects .wrapper .grid-projects .media {
+.projects .wrapper .grid-projects .card .media {
   height: 100%;
   width: 100%;
 }
