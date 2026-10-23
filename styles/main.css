@@ -802,7 +802,6 @@ a {
     justify-content: center;
     gap: 35px;
     height: auto;
-    min-height: 100vh;
     padding: 40px 30px;
     box-sizing: border-box;
   }
