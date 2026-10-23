@@ -1353,38 +1353,25 @@ p {
 }
 
 .projects .wrapper .grid-projects {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 20px;
 }
 
 .projects .wrapper .grid-projects .card {
-  grid-column: span 2;
-}
-
-/* Centrer les deux dernières cartes */
-.projects .wrapper .grid-projects .card:nth-child(4) {
-  grid-column: 2 / span 2;
-}
-
-.projects .wrapper .grid-projects .card:nth-child(5) {
-  grid-column: 4 / span 2;
+  width: calc((100% - 40px) / 3); /* 3 par rangée, 2 gaps de 20px */
 }
 
 @media (width < 1440px) {
-  .projects .wrapper .grid-projects {
-    grid-template-columns: 1fr 1fr;
-  }
-  .projects .wrapper .grid-projects .card,
-  .projects .wrapper .grid-projects .card:nth-child(4),
-  .projects .wrapper .grid-projects .card:nth-child(5) {
-    grid-column: auto;
+  .projects .wrapper .grid-projects .card {
+    width: calc((100% - 20px) / 2); /* 2 par rangée */
   }
 }
 
 @media (width < 768px) {
-  .projects .wrapper .grid-projects {
-    grid-template-columns: 1fr;
+  .projects .wrapper .grid-projects .card {
+    width: 100%;
   }
 }
 .projects .wrapper .grid-projects .card {
