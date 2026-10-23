@@ -1373,7 +1373,7 @@ p {
 }
 
 
-  @media (width < 1440px) {
+@media (width < 1440px) {
   .projects .wrapper .grid-projects {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1384,15 +1384,9 @@ p {
   }
 }
 
-@media (width < 768px) {
+@media (width < 560px) {
   .projects .wrapper .grid-projects {
     grid-template-columns: minmax(0, 1fr);
-  }
-
-  .projects .wrapper .grid-projects .card {
-    grid-column: auto;
-    width: 100%;
-    box-sizing: border-box;
   }
 }
 
