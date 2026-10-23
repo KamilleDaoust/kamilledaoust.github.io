@@ -1354,10 +1354,11 @@ p {
 
 .projects .wrapper .grid-projects {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 20px;
+  width: 100%;
+  min-width: 0;
 }
-
 .projects .wrapper .grid-projects .card {
   grid-column: span 2;
 }
