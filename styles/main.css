@@ -802,23 +802,17 @@ a {
     justify-content: center;
     padding: 30px 30px;
   }
-  .hub .media {
-    border-radius: 100%;
-    aspect-ratio: 1/1;
-    order: -1;
-    width: 50%;
-    height: 50%;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.hub .media {
+  width: min(50%, 350px);
+  aspect-ratio: 1 / 1;
+  height: auto;
+  flex-shrink: 0;
 
-    /*   img {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }*/
-  }
+  border-radius: 50%;
+  overflow: hidden;
+
+  order: -1;
+}
 }
 .hub .wrapper {
   display: flex;
