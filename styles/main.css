@@ -1351,23 +1351,16 @@ p {
   gap: 15px;
   text-align: center;
 }
-
-.projects .wrapper {
-  width: 100%;
-  box-sizing: border-box;
-}
-
 .projects .wrapper .grid-projects {
-  width: 100%;
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 20px;
-  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
 }
 
 .projects .wrapper .grid-projects .card {
-  grid-column: auto;
-  min-width: 0;
+  grid-column: span 2;
 }
 
 /* Centrer les deux dernières cartes */
@@ -1379,21 +1372,29 @@ p {
   grid-column: 4 / span 2;
 }
 
+
 @media (width < 1440px) {
   .projects .wrapper .grid-projects {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .projects .wrapper .grid-projects .card {
+  .projects .wrapper .grid-projects .card:nth-child(4),
+  .projects .wrapper .grid-projects .card:nth-child(5) {
     grid-column: auto;
   }
 }
 
-@media (width < 768px) {
+@media (width < 560px) {
   .projects .wrapper .grid-projects {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
 }
+
+  .projects .wrapper .grid-projects .card {
+    grid-column: 1 / -1;
+    width: 100%;
+    min-width: 0;
+  }
 
 .projects .wrapper .grid-projects .card {
   display: flex;
@@ -1402,7 +1403,6 @@ p {
   align-items: center;
   background-color: var(--color-white);
 }
-
 .projects .wrapper .grid-projects .content {
   display: flex;
   flex-direction: column;
@@ -1411,22 +1411,18 @@ p {
   gap: 24px;
   padding: 24px;
 }
-
 .projects .wrapper .grid-projects .content a {
   background-color: var(--color-primary);
   padding: 10px 20px;
   border-radius: 16px;
 }
-
 .projects .wrapper .grid-projects .content a:hover {
   background-color: var(--color-bg-primary);
 }
-
 .projects .wrapper .grid-projects .card .media {
   height: 100%;
   width: 100%;
 }
-
 .projects .wrapper .grid-projects .media img {
   display: block;
   height: 100%;
@@ -1434,18 +1430,15 @@ p {
   -o-object-fit: cover;
      object-fit: cover;
 }
-
 .projects .wrapper .grid-projects h3 {
   color: var(--color-black);
   text-align: center;
 }
-
 .projects .wrapper .grid-projects p {
   color: var(--color-black);
   opacity: 50%;
   text-align: center;
 }
-
 .projects .wrapper h1 {
   color: var(--color-black);
 }
