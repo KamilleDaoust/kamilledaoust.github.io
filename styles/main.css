@@ -1384,6 +1384,12 @@ p {
   .projects .wrapper .grid-projects {
     grid-template-columns: minmax(0, 1fr);
   }
+
+  .projects .wrapper .grid-projects .card {
+    grid-column: 1 / -1;
+    width: 100%;
+    min-width: 0;
+  }
 }
 .projects .wrapper .grid-projects .card {
   display: flex;
