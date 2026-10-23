@@ -1353,24 +1353,36 @@ p {
 }
 
 
-.projects .wrapper .grid-projects {
+.grid-projects {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 20px;
+  grid-template-columns: repeat(6, 1fr); /* au lieu de repeat(3, 1fr) */
+  /* gardez votre gap actuel */
 }
 
-.projects .wrapper .grid-projects .card {
-  grid-column: span 2;
+.grid-projects .card {
+  grid-column: span 2; /* chaque carte prend 2 colonnes sur 6 = 3 par rangée */
 }
 
-@media (width < 1440px) {
-  .projects .wrapper .grid-projects {
-    grid-template-columns: 1fr 1fr;
+/* Rangée du bas : cartes 4 et 5 centrées */
+.grid-projects .card:nth-child(4) {
+  grid-column: 2 / span 2;
+}
+.grid-projects .card:nth-child(5) {
+  grid-column: 4 / span 2;
+}
+@media (max-width: 900px) {
+  .grid-projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-projects .card,
+  .grid-projects .card:nth-child(4),
+  .grid-projects .card:nth-child(5) {
+    grid-column: auto;
   }
 }
 
-@media (width < 768px) {
-  .projects .wrapper .grid-projects {
+@media (max-width: 600px) {
+  .grid-projects {
     grid-template-columns: 1fr;
   }
 }
