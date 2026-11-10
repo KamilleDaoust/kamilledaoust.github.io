@@ -1567,8 +1567,12 @@ p {
 .erreur{
     padding: 350px 450px;
     background-color: #FFF9F6;
+}
 
-
+@media screen and (max-width: 680px) {
+  .erreur {
+    padding: 30px;
+  }
 }
   .btn_retour{
     text-align: center;
